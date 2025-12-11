@@ -4,7 +4,6 @@ include '../database/db.class.php';
 
 $db = new db('venda');
 $conn = $db->conn();
-helo
 
 if (!empty($_GET['delete'])) {
     $id = (int)$_GET['delete'];
